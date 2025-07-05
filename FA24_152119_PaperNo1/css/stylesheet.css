@@ -1,0 +1,107 @@
+input[type="radio"]:checked {
+    accent-color: #0078D7;
+    /* Màu bạn muốn */
+  }
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 20px;
+}
+.logo img{
+    width: 100px;
+    height: 100px;    
+}
+.search{
+    width: 500px;
+}
+.side{
+    margin-right: 70px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: #0BC1C3;
+    height: 50px;
+}
+/*========================MENU================================*/
+.content{
+    display: flex;
+    margin-top: 10px;
+}
+.content .left {
+    width: 700px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+.left .detail{
+    border: solid #19AFDE 2px;
+    margin-bottom:25px ;
+}
+.detail h4{
+    background-color: #E1EDED;
+    margin-top: 0px;
+    color: #19AFDE;
+    padding: 7px;
+
+}
+.detail img{
+    width: 30px;
+    margin-right: 20px;
+}
+.detail p{
+    margin-left: 10px;
+}
+/*========*/
+.content .right .banner img{
+    width:1150px;
+}
+.right .banner-title{
+    margin: 15px 0;
+    text-align: center;
+    color: #0BC1C3;
+    border: solid 1px gray;
+}
+.right .tour{
+    display: flex;
+    border: solid 2px gray;
+    padding: 7px 10px;
+}
+.tour img{
+    width: 500px; 
+    height: 280px;
+    margin-right: 30px;
+}
+.tour h2{
+    padding-top: 0px;
+    color: #0BC1C3;    
+}
+.tour p{
+    line-height: 25px;
+}
+.tour h4{
+    color: orange;
+}
+.tour .book{
+    background-color: #19AFDE;
+    display: inline-block;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: 10px 15px;
+    margin-left: 75%;
+
+
+
+}
+/*===========================FOOTER===============================*/
+.footer{
+    margin-top: 30px;
+    background-color: #0BC1C3;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
