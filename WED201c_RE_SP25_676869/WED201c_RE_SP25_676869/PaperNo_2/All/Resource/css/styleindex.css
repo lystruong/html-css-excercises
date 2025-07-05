@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px black solid;
+
+}
+
+.logo img {
+    width: 200px;
+}
+
+.header .search button {
+    background-color: #ED6E14;
+    border: none;
+    color: white;
+}
+
+/*==============FIRST ==================*/
+h1 {
+    color: #ED6E14;
+    text-align: center;
+}
+
+.first {
+    margin-left: 60px;
+    gap: 50px;
+    display: flex;
+}
+
+.first .left {
+    display: flex;
+}
+.first .small img{
+}
+.first .left .big img{
+    height: fit-content;
+}
+
+/**/
+.first .right h2{
+    color: #0E9887;
+}
+/*========SECOND===========*/
+.second {
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.second .content {
+    width: 25%;
+    border: solid 2px black;
+    text-align: center;
+    border-radius: 10px;
+    padding-bottom: 30px;
+
+}
+
+.second .content img {
+    width: 100%;
+    border-radius: 10px;
+}
+.second .content .buy{
+    background-color: #0E9887;
+    width: 70px;
+    border-radius: 5px;
+    color: white;
+    align-items: center;
+    padding: 10px;
+    margin-left: 130px;
+}
+/*========= FOOTER ===========*/
+.footer{
+    background-color: #504E4C;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+    margin-top: 40px;
+}
