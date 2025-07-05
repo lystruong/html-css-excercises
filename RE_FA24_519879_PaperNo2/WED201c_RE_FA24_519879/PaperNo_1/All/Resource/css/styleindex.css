@@ -1,0 +1,91 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.header .logo{
+    margin-left: 10px;
+}
+.header .logo img{
+    width: 100px;
+    height: 70px;
+}
+.header .search{
+    margin-top: 30px;
+    width: 500px;
+}
+/**/
+.menu{
+    display: flex;
+    justify-content: center;
+    background-color: #0EC0C3;
+    height: 50px;
+}
+/*======================= FIRST =========================*/
+h2{
+    text-align: center;
+    color: #0EC0C3;
+    margin: 30px;
+}
+.first{
+    display: flex;
+    gap: 30px;
+}
+.first .left{
+    flex: 50%;
+}
+.first .left img{
+}
+.first .right{
+    flex: 50%;
+}
+.first .right .photo{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+.first .right .photo img{
+    width: 100%;
+}
+/*============================== SECOND ================================*/
+h1{
+    text-align: center;
+    color: #0EC0C3;
+    margin: 30px;
+}
+.second{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    margin: 0 100px;
+}
+.second h3{
+    color: orange;
+    text-align: center;
+}
+.second h4{
+    text-align: center;
+    color: #3367D1;
+
+}
+/*=============================== THIRD ============================*/
+.third{
+    display: flex;
+    gap: 50px;
+}
+.third .left{
+    flex: 50%;   
+}
+.third .left img{
+    width: 100%;
+}
+.third .right{
+    flex: 50%;
+}
+/*========================= FOOTER =========================*/
+.footer{
+    background-color: #0EC0C3;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
