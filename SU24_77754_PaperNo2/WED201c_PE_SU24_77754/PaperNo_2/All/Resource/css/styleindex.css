@@ -1,0 +1,136 @@
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.menu ul {
+    background-color: #A2A7A7;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li {
+    list-style-type: none;
+}
+
+.menu a {
+    text-decoration: none;
+    margin-right: 50px;
+    color: white;
+}
+
+/*=============================== RIRST ================================*/
+.first {
+    display: flex;
+}
+
+.first img {
+    width: 100%;
+}
+
+/*============================== SECOND =================================*/
+.second {
+    display: flex;
+}
+
+.second .left {
+    flex: 60%;
+}
+
+.second .left h2 {
+    color: #0EB7C0;
+}
+
+.second .right {
+    flex: 40%;
+}
+
+/*=========================== THIRD =========================*/
+h1 {
+    text-align: center;
+    color: #0EB7C0;
+}
+
+.third .top {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.third .top .detail {
+    border: solid 2px orange;
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.third .top .detail img {
+    width: 200px;
+    margin: 0 70px;
+}
+
+.third .top .detail a {
+    background-color: #0EB7C0;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+/**/
+.third .bot {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.third .bot .detail {
+    border: solid 2px orange;
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.third .bot .detail img {
+    width: 200px;
+    margin: 0 70px;
+}
+
+.third .bot .detail a {
+    background-color: #0EB7C0;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+/*============================= LAST =============================*/
+h1{
+    text-align: center;
+    margin: 30px 0;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.last .content{
+    padding: 20px;
+    background-color: #ECECEC;
+    text-align: center;
+}
+.last p{
+    color: orange;
+    font-weight: bold;
+}
+/*============================= FOOTER ===============================*/
+.footer{
+    background-color: #A2A7A7;
+    padding: 5px 0;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
