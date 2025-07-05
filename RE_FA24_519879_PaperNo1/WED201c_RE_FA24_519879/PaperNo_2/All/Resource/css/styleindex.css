@@ -1,0 +1,85 @@
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: #0EC0C3;
+    height: 50px;
+}
+
+/*======================= FIRST ===========================*/
+h2 {
+    text-align: center;
+    color: #0EC0C3;
+    margin: 30px;
+}
+
+.first {
+    display: flex;
+    margin: 0 7px;
+    gap: 20px;
+}
+
+.first img {
+    width: 100%;
+}
+
+/*======================== SECOND ==========================*/
+.second {
+    display: flex;
+    gap: 20px;
+    margin: 20px 7px;
+}
+
+.second .photo img {
+    width: 450px;
+    height: 300px;
+}
+
+.second .book {
+    width: 45%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.second .book h4 {
+    color: orange;
+}
+
+.second .book p {
+    background-color: #31C6E9;
+    margin: 0px 30px;
+    padding: 10px 0;
+    color: white;
+    border-radius: 5px;
+}
+
+/*========================== THIRD ==================================*/
+.third {
+    display: flex;
+    margin: 0 7px;
+    gap: 20px;
+}
+
+.third .photo img {
+    width: 450px;
+    height: max-content;
+}
+
+.third .des h2 {
+    text-align: center;
+}
+.third .des{
+    flex: 25%;
+}
+/*============================ FOOTER ===============================*/
+.footer{
+    background-color: #0EC0C3;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+}
